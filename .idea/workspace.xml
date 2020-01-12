@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bb887c6-acba-4099-833a-76d4fc9e5ea2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Provide/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/java/com/study/ProvideApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/java/com/study/ProvideApplication2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/java/com/study/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/java/com/study/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/java/com/study/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/java/com/study/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Provide/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/study/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/study/FeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/study/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/study/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/study/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/study/service/impl/FeignErrorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/study/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/study/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/study/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/study/service/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/study/service/impl/FeignErrorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/src/main/java/com/study/RestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/src/main/java/com/study/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/src/main/java/com/study/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/study/RibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/study/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/study/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven" />
+        <option name="userSettingsFile" value="D:\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WHOw4zFuAQ097ztR8zoYjLfNww" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hystrix/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\spring-cloud\Provied\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.controller" />
+      <recent name="com.study.entity" />
+      <recent name="com.study" />
+      <recent name="study" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\spring-cloud\hystrix\src\main\java" />
+      <recent name="F:\spring-cloud\hystrix\src\main\resources" />
+      <recent name="F:\spring-cloud\feign\src\main\java" />
+      <recent name="F:\spring-cloud\feign\src\main\resources" />
+      <recent name="F:\spring-cloud\Provied\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProvideApplication7000">
+    <configuration name="FeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.FeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.ProvideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvideApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.ProvideApplication2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.RibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProvideApplication7000" />
+        <item itemvalue="Spring Boot.HystrixApplication" />
+        <item itemvalue="Spring Boot.FeignApplication" />
+        <item itemvalue="Spring Boot.RibbonApplication" />
+        <item itemvalue="Spring Boot.ProvideApplication2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1839237" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bb887c6-acba-4099-833a-76d4fc9e5ea2" name="Default Changelist" comment="" />
+      <created>1578803288920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578803288920</updated>
+      <workItem from="1578803290279" duration="19252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1578812256789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578812256789" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578823024986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578823024986" />
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1578821144382">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578821144382" />
+    <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578804582223">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1578804582223" />
+    <state x="471" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578817731796">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="471" y="344" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1578817731796" />
+    <state x="561" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1578807318381">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1578807318381" />
+    <state width="1197" height="317" key="GridCell.Tab.0.bottom" timestamp="1578824436997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578824436997" />
+    <state width="1197" height="317" key="GridCell.Tab.0.center" timestamp="1578824436996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578824436996" />
+    <state width="1197" height="317" key="GridCell.Tab.0.left" timestamp="1578824436996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578824436996" />
+    <state width="1197" height="317" key="GridCell.Tab.0.right" timestamp="1578824436996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578824436996" />
+    <state width="1197" height="317" key="GridCell.Tab.1.bottom" timestamp="1578824436997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578824436997" />
+    <state width="1197" height="317" key="GridCell.Tab.1.center" timestamp="1578824436997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578824436997" />
+    <state width="1197" height="317" key="GridCell.Tab.1.left" timestamp="1578824436997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578824436997" />
+    <state width="1197" height="317" key="GridCell.Tab.1.right" timestamp="1578824436997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1197" height="317" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578824436997" />
+    <state width="1497" height="163" key="GridCell.Tab.2.bottom" timestamp="1578809964361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1497" height="163" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578809964361" />
+    <state width="1497" height="163" key="GridCell.Tab.2.center" timestamp="1578809964361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1497" height="163" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1578809964361" />
+    <state width="1497" height="163" key="GridCell.Tab.2.left" timestamp="1578809964361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1497" height="163" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1578809964361" />
+    <state width="1497" height="163" key="GridCell.Tab.2.right" timestamp="1578809964361">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1497" height="163" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1578809964361" />
+    <state x="349" y="153" key="IDE.errors.dialog" timestamp="1578810779045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="153" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1578810779045" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1578819166490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1578819166490" />
+    <state x="401" y="135" width="733" height="554" key="find.popup" timestamp="1578819608698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="135" width="733" height="554" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578819608698" />
+    <state x="2" y="111" key="new project wizard" timestamp="1578823050950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="2" y="111" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1578823050950" />
+  </component>
+</project>
