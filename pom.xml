@@ -20,6 +20,8 @@
         <module>config-native-client</module>
         <module>config-github-server</module>
         <module>config-github-client</module>
+        <module>zipkin-server</module>
+        <module>zipkin-client</module>
     </modules>
 
     <parent>
