@@ -16,6 +16,10 @@
         <module>ribbon</module>
         <module>feign</module>
         <module>hystrix</module>
+        <module>config-native-server</module>
+        <module>config-native-client</module>
+        <module>config-github-server</module>
+        <module>config-github-client</module>
     </modules>
 
     <parent>
