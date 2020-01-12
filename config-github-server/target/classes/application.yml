@@ -1,0 +1,19 @@
+server:
+  port: 8013
+spring:
+  application:
+    name: configGithubServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:luck-1/spring-cloud.git
+          search-paths: /config-github-server/src/main/resources/shared/
+          username: 1986906062@qq.com
+          password: wq979808240827
+      label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
