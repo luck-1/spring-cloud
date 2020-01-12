@@ -18,11 +18,8 @@ public class GithubController {
     @Value("${server.port}")
     private String port;
 
-    @Value("${foo}")
-    private String foo;
-
     @GetMapping("index")
     public String index() {
-        return "port(" + port + "),foo(" + foo + ")";
+        return "port(" + port + ")";
     }
 }

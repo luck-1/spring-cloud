@@ -1,10 +1,13 @@
 spring:
-  application:
-    name: configNativeClient
-  profiles:
-    active: dev
   cloud:
     config:
-      uri: http://127.0.0.1:8010
-      # 客户端优先判断server是否正常
-      fail-fast: true
+      name: config_github_client
+      label: master
+      discovery:
+        enabled: true
+        service-id: configGithubServer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/
