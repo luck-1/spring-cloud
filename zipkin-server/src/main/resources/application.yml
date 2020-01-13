@@ -1,2 +1,14 @@
 server:
   port: 8015
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+management:
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: false
