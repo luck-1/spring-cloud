@@ -9,3 +9,4 @@
 /hystrix/hystrix.iml
 /ribbon/ribbon.iml
 /zipkin-server/target
+/zipkin-client/target
