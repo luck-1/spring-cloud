@@ -1,3 +1,11 @@
 /zero.iml
 /.idea
 /eureka-server/target
+/config-github-client/target
+/config-github-server/target
+/config-native-client/target
+/config-native-server/target
+/feign/feign.iml
+/hystrix/hystrix.iml
+/ribbon/ribbon.iml
+/zipkin-server/target
